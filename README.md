@@ -4,9 +4,9 @@ Aplicación web standalone Angular v21 para buscar gasolineras en España usando
 
 ## Características
 
-- ✅ Geolocalización automática o manual
+- ✅ Geolocalización automática
 - ✅ Filtros por tipo de combustible (Gasóleo A, Gasolina 95, etc.)
-- ✅ Filtros por marcas (whitelist/blacklist)
+- ✅ Filtros por marcas (allowlist/denylist)
 - ✅ Radio de búsqueda configurable (1-50 km)
 - ✅ Muestra gasolinera más cercana y más barata
 - ✅ Caché inteligente con localStorage (TTL 30 minutos)
@@ -72,6 +72,7 @@ src/app/
 ## API utilizada
 
 Ministerio para la Transición Ecológica:
+
 ```
 https://energia.serviciosmin.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/
 ```
