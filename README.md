@@ -36,14 +36,13 @@ ng serve
 ## Build para producción
 
 ```bash
-# Build estándar
+# Build para producción (baseHref configurado en angular.json)
 ng build
-
-# Build para GitHub Pages (ajustar base-href según tu repositorio)
-ng build --base-href="/nombre-repositorio/"
 ```
 
 El output estará en `dist/gasolineras-app/browser/`
+
+**Nota:** El `baseHref` está configurado en `angular.json` para producción.
 
 ## Estructura del proyecto
 
