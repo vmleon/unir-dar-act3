@@ -2,6 +2,9 @@
 
 Aplicación web standalone Angular v21 para buscar gasolineras en España usando la API del Ministerio de Energía.
 
+- URL: https://vmleon.github.io/unir-dar-act3/dist/gasolineras-app/browser/
+- Repositorio: https://github.com/vmleon/unir-dar-act3
+
 ## Características
 
 - ✅ Geolocalización automática
