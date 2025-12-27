@@ -30,7 +30,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/unir-dar-act3/gasolineras-app/dist/gasolineras-app/browser/",
+              "baseHref": "/unir-dar-act3/dist/gasolineras-app/browser/",
               "budgets": [
                 {
                   "type": "initial",
